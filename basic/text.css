@@ -1,0 +1,47 @@
+p {
+  font-family: Roboto;
+}
+
+.title {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  text-align: left;
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+.video-stats {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.channel-name {
+  margin-top: 20px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.video-description {
+  font-size: 14px;
+  width: 270px;
+  opacity: 0.7;
+  line-height: 22px;
+  margin-bottom: 100px;
+}
+
+.apple-text {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 14px;
+  text-align: center;
+  background-color: rgb(226, 65, 64);
+  color: white;
+}
+
+.shop-now:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
