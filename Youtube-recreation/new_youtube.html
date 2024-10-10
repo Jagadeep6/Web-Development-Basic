@@ -10,9 +10,10 @@
   <link rel="stylesheet" href="/Youtube-recreation/styles/video.css">
   <link rel="stylesheet" href="/Youtube-recreation/styles/general.css">
   <link rel="stylesheet" href="/Youtube-recreation/styles/header.css">
+  <link rel="stylesheet" href="/Youtube-recreation/styles/sidebar.css">
 </head>
 
-<body style="padding-bottom:1000px; padding-top: 65px; padding-left: 80px;">
+<body style="padding-bottom:1000px; padding-top: 65px; padding-left: 75px; padding-right: 15px; background-color: rgb(251, 248, 248)">
   <div class="header">
     <div class="left-section">
       <img class="hamburger-menu" src="/Icons/hamburger-menu.svg">
@@ -22,23 +23,38 @@
       <input type="text" placeholder="Search" class="search-bar">
       <button class="search-button">
         <img class="search-logo" src="/Icons/search.svg">
+        <div class="prompt-box">Search</div>
       </button>
       <button class="voice-search-button">
         <img class="voice-search-logo" src="/Icons/voice-search-icon.svg">
+        <div class="prompt-voice-box">Search with your voice</div>
       </button>
     </div>
     <div class="right-section">
       <img class="upload-icon" src="/Icons/upload.svg">
       <img class="youtube-apps-icon" src="/Icons/youtube-apps.svg">
-      <img class="notifications-icon" src="/Icons/notifications.svg">
+      <div class="notifications-icon-container">
+        <img class="notifications-icon" src="/Icons/notifications.svg">
+        <div class="notifications-count">3</div>
+      </div>
       <img class="user-channel-profile" src="/Channel_profile/channel-6.jpeg">
     </div>
+  </div>
+  
+  <div class="sidebar">
+    <div class="sidebar-link"><img src="/Icons/home.svg"> <div> Home </div></div>
+    <div class="sidebar-link"><img src="/Icons/explore.svg"><div>Explore</div></div>
+    <div class="sidebar-link"><img src="/Icons/subscriptions.svg"><div>Subscirption</div></div>
+    <div class="sidebar-link"><img src="/Icons/originals.svg"><div>Originals</div></div>
+    <div class="sidebar-link"><img src="/Icons/youtube-music.svg"><div>Youtube Music</div></div>
+    <div class="sidebar-link"><img src="/Icons/library.svg"><div>Library</div></div>
   </div>
 
   <div class="grid-model">
     <div class="video-card">
-      <div>
+      <div class="thumbnail-row">
         <img class="thumbnail" src="/Thumbnails/thumbnail-1.webp">
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div>
@@ -59,8 +75,9 @@
     </div>
 
     <div class="video-card">
-      <div>
+      <div class="thumbnail-row">
         <img class="thumbnail" src="/Thumbnails/thumbnail-2	.webp">
+        <div class="video-time">8:22</div>
       </div>
       <div class="video-info-grid">
         <div>
@@ -82,8 +99,9 @@
     </div>
 
     <div class="video-card">
-      <div>
+      <div class="thumbnail-row">
         <img class="thumbnail" src="/Thumbnails/thumbnail-3.webp">
+        <div class="video-time">9:13</div>
       </div>
       <div class="video-info-grid">
         <div>
@@ -104,8 +122,9 @@
     </div>
 
     <div class="video-card">
-      <div>
+      <div class="thumbnail-row">
         <img class="thumbnail" src="/Thumbnails/thumbnail-4.webp">
+        <div class="video-time">22:09</div>
       </div>
       <div class="video-info-grid">
         <div>
@@ -126,8 +145,9 @@
     </div>
 
     <div class="video-card">
-      <div>
+      <div class="thumbnail-row">
         <img class="thumbnail" src="/Thumbnails/thumbnail-5.webp">
+        <div class="video-time">11:17</div>
       </div>
       <div class="video-info-grid">
         <div>
@@ -148,8 +168,9 @@
     </div>
 
     <div class="video-card">
-      <div>
+      <div class="thumbnail-row">
         <img class="thumbnail" src="/Thumbnails/thumbnail-6.webp">
+        <div class="video-time">19:59</div>
       </div>
       <div class="video-info-grid">
         <div>

@@ -12,11 +12,30 @@
     vertical-align: top; 
 }
 
+.thumbnail-row{
+    position: relative;
+}
+
 .thumbnail{
     width: 100%;
     margin-bottom: 10px;
 }
 
+.video-time{
+    position: absolute;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 2px;
+    right: 5px;
+    bottom: 20px;
+    background-color: black;
+    color: white;
+}
 .video-info-grid{
     display: grid;
     grid-template-columns: 48px 1fr;
@@ -32,7 +51,7 @@
 }
 .video-title{
     margin-top: 0px;
-    font-weight: bold;
+    font-weight: 560;
     margin-bottom: 10px;
 }
 
